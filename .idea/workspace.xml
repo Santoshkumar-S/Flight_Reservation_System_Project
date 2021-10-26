@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cf832420-0d0d-43a0-a279-b213c8bf1fcc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flight_Reservation_System/src/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/Flight_Reservation_System/src/Flight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flight_Reservation_System/src/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/Flight_Reservation_System/src/Passenger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flight_Reservation_System/src/RegularTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/Flight_Reservation_System/src/RegularTicket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flight_Reservation_System/src/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/Flight_Reservation_System/src/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flight_Reservation_System/src/TouristTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/Flight_Reservation_System/src/TouristTicket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flight_Reservation_System/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Flight_Reservation_System/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
