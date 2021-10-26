@@ -36,11 +36,11 @@ public class Passenger {
     }
 
     public String getContactDetails(){
-        return "Name, PhoneNumber, EmailId";
+        return "Name: " + contact.contactName + ", PhoneNumber: " + contact.contactPhoneNumber + ", EmailId: " + contact.contactEmailId;
     }
 
     public String getAddressDetails(){
-        return "Street, City, State";
+        return "Street: " + address.street + ", City: " + address.city + ", State: " + address.state;
     }
 
     public int getId(){

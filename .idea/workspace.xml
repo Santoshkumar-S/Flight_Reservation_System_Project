@@ -8,10 +8,6 @@
       <change beforePath="$PROJECT_DIR$/Flight_Reservation_System/src/RegularTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/Flight_Reservation_System/src/RegularTicket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Flight_Reservation_System/src/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/Flight_Reservation_System/src/Ticket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Flight_Reservation_System/src/TouristTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/Flight_Reservation_System/src/TouristTicket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Flight_Reservation_System/Flight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Flight_Reservation_System/Flight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Flight_Reservation_System/RegularTicket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Flight_Reservation_System/Ticket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Flight_Reservation_System/Ticket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Flight_Reservation_System/TouristTicket.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

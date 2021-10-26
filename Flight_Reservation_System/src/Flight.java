@@ -12,7 +12,7 @@ public class Flight {
     }
 
     public String getFlightDetails(){
-        return "Flight Details";
+        return "Flight Number: " + flightNumber + ", Airline: " + airline + ", Capacity: " + capacity + ", Number of seats booked: " + numberOfSeatsBooked;
     }
 
     public boolean availableSeats(){

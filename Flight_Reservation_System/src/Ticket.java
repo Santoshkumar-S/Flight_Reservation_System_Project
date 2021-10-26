@@ -1,6 +1,6 @@
 import java.time.LocalDateTime;
 
-public class Ticket{
+public abstract class Ticket{
     private String pnr;
     private String from;
     private String to;
