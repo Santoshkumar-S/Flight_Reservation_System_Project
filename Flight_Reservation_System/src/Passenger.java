@@ -1,5 +1,6 @@
 import java.lang.String;
 public class Passenger {
+    private static int idCounter = 0;
     private int id;
     private Address address;
     private Contact contact;
@@ -9,7 +10,7 @@ public class Passenger {
         String city;
         String state;
 
-        Address(){
+        Address(String street, String city, String state){
             this.street = street;
             this.city = city;
             this.state = state;
@@ -21,17 +22,17 @@ public class Passenger {
         String contactPhoneNumber;
         String contactEmailId;
 
-        Contact(){
+        Contact(String contactName, String contactPhoneNumber, String contactEmailId){
             this.contactName = contactName;
             this.contactPhoneNumber = contactPhoneNumber;
             this.contactEmailId = contactEmailId;
         }
     }
 
-    public Passenger(){
-        this.id = id;
-        this.address = new Address();
-        this.contact = new Contact();
+    public Passenger(String street, String city, String state, String contactName, String contactPhoneNumber, String contactEmailId){
+        this.id = ++idCounter;
+        this.address = new Address(street, city, state);
+        this.contact = new Contact(contactName, contactPhoneNumber, contactEmailId);
     }
 
     public String getContactDetails(){
@@ -42,7 +43,12 @@ public class Passenger {
         return "Street, City, State";
     }
 
-    public void updateContactDetails(String contactDetails){
-
+    public int getId(){
+        return this.id;
     }
+
+    public static int getPassengerCount() {
+        return idCounter;
+    }
+
 }
